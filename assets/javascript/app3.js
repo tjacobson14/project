@@ -88,19 +88,19 @@ function upload() {
 }
 
 function displaySwap() {
-  var sadnessText = "You're Sad. You could use a hug...and a drink";
+  var sadnessText = "You're Sad. 😕 You could use a hug...and a drink";
   var sadButton = "sad-button";
-  var happinessText = "You're happy! Great, let's celebrate!";
+  var happinessText = "You're happy! 😁 Great, let's celebrate!";
   var happyButton = "happy-button";
-  var angerText = "You're angry. It's OK, let's calm you down";
+  var angerText = "You're angry. 😡 It's OK, let's calm you down";
   var angerButton = "angry-button";
-  var fearText = "You're afraid! How about some liquid courage?";
+  var fearText = "You're afraid! 😱 How about some liquid courage?";
   var fearButton = "fear-button"
-  var disgustText = "You're disgusted. You cannot even with this day.";
+  var disgustText = "You're disgusted. 😒 You cannot even with this day.";
   var disgustButton = "disgust-button";
-  var surprisedText = "You're surprised! Didn't see that one comin', huh?";
+  var surprisedText = "You're surprised! 😧 Didn't see that one comin', huh?";
   var surprisedButton = "surprised-button";
-  var neutralText = "Damn! Do you play poker? We can't tell what you're feeling. How about a rando drink?";
+  var neutralText = "Damn! Do you play poker? 😐 We can't tell what you're feeling. How about a rando drink?";
   var neutralButton = "neutral-button";
 
 
