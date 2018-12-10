@@ -2,15 +2,6 @@ body {
     background:#212121;
     font-family: Raleway;
     overflow: hidden;
-    /* background: url("https://c1.staticflickr.com/6/5019/5454248042_b59e8beb28_b.jpg");
-    background-size: cover 100%;
-    background-repeat:no-repeat;
-    background-position: center;
-    opacity:10;
-    top:0;
-    height: 100%;
-    margin:25rem; */
-  
   }
   
   @keyframes openTopLine {
@@ -64,10 +55,11 @@ body {
   }
   
   .line {
-      height: .25rem;
-      background: #bdbdbd;
+      height: .1rem;
+      background: whitesmoke;
+      opacity: .2;
       display: inline-block;
-      width: 27em;
+      width: 38rem;
      
   } 
   .top {
@@ -81,7 +73,7 @@ body {
   .content {
       animation: slideContent 1.5s;
       animation-fill-mode: backwards;
-      animation-delay: 1.5s;
+      animation-delay: 1.5s; 
   }
   .title {
         font-weight: 600;
@@ -147,42 +139,42 @@ body {
       -webkit-transform: scale(0.9);
       transform: scale(0.9);
       opacity: 0.2;
-      -webkit-animation: bubbles 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+      -webkit-animation: bubbles 18s linear infinite, 2s ease-in-out infinite alternate;
   }
   .no2 {
       left: 30rem;
       -webkit-transform: scale(0.5);
       transform: scale(0.5);
       opacity: 0.5;
-      -webkit-animation: bubbles 28s linear infinite, sideWays 1s ease-in-out;
+      -webkit-animation: bubbles 28s linear infinite,  1s ease-in-out;
   }
   .no3 {
     left: 120rem;
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 0.1; 
-    -webkit-animation: bubbles 12s linear infinite, sideWays 5s ease-in-out;
+    -webkit-animation: bubbles 12s linear infinite,  5s ease-in-out;
   }
   .no4 {
       left: 39rem;
       -webkit-transform: scale(0.8);
       transform: scale(0.8);
       opacity: 0.3;
-      -webkit-animation: bubbles 18s linear infinite, sideWays 4s ease-in-out;
+      -webkit-animation: bubbles 18s linear infinite,  4s ease-in-out;
   }
   .no5 {
       left: 70rem;
       -webkit-transform: scale(0.9);
       transform: scale(0.9);
       opacity: 0.1;
-      -webkit-animation: bubbles 16s linear infinite, sideWays 4s ease-in-out;
+      -webkit-animation: bubbles 16s linear infinite, 4s ease-in-out;
   }
   .no6 {
     left: 135rem;
     -webkit-transform: scale(0.6);
     transform: scale(0.6);
     opacity: 0.25;
-    -webkit-animation: bubbles 20s linear infinite, sideWays 4s ease-in-out;
+    -webkit-animation: bubbles 20s linear infinite,  4s ease-in-out;
   }
   
   @-webkit-keyframes bubbles { 
